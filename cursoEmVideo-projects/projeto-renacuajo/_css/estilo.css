@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf")
+}
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
+    /*background-image: url('_img/fondo1.jpg');*/
+    background-color: rgb(212, 255, 169);
+    font-family: Arial, sans-serif;
+}
+div#interface {
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.507);
+    margin: -20px auto 10px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left: 950px;
+    top: 90px;
+}
+header#cabecalho {
+    border-bottom: 1px green solid;
+    height: 150px;
+    background: url("../_img/fondo3.jpg");
+}
+header#cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    color: green;
+    text-shadow: 1px 1px 1px black;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2 {
+    font-family: 'Bangers', cursive;
+    font-size: 15pt;
+    color: rgb(60, 128, 60);
+    text-shadow: 1px 1px 1px black;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/* Formatação de imagens con legendas */
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.411);
+    
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+/* Formatação do Menu */
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 500px;
+} 
+nav#menu li {
+    display: inline-block;
+    background-color: yellowgreen;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+nav#menu li:hover {
+    background-color: rgb(209, 252, 92);
+}
+nav#menu h1 {
+    display: none;
+}
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
+}
+/* configurando as separações na div */
+section#corpo {
+    display: block;
+    width: 60%;
+    float: left;
+    border-right: 1px solid green;
+    padding-right: 20px;
+}
+aside#lateral {
+    display: block;
+    width: 35%;
+    float: right;
+    background-color: #9bc771;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+footer#rodape {
+    clear: both;
+    border-top: 1px solid green;
+
+}
+footer#rodape p {
+    text-align: center;
+}
+
+/* formatação da tabela */
+table#tabela {
+    border: 1px solid green;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabela td {
+    border: 1px solid green;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table#tabela td.ce {
+    color: white;
+    background-color: green;
+    vertical-align: top;
+    font-weight: bold;
+    text-align: right;
+}
+
+table#tabela td.cd {
+    background-color: greenyellow;
+    text-align: left;
+}
+
+table#tabela caption {
+    color: rgb(106, 167, 14);
+    font-size: 15pt;
+    font-weight: bolder;
+}
+
+table#tabela caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+/* formatando o article */
+article#noticia-principal h2{
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+header#cabecalho-artigo h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: green;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+header#cabecalho-artigo h2{
+    font-size: 13pt;
+    color: green;
+    background-color: greenyellow;
+    margin: 0px;
+}
+header#cabecalho-artigo h3{
+    font-size: 13pt;
+    color: green;
+}
+.direita {
+    text-align: right;
+}
+/* formatando o aside */
+aside#lateral h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: green;
+    margin-top: 0px;
+}
+aside#lateral h2 {
+    background-color: greenyellow;
+    font-size: 13pt;
+    color: green;
+    padding: 5px;
+}
