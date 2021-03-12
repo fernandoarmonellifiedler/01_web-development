@@ -1,0 +1,126 @@
+@media (min-width: 831px) {
+  body {
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+  }
+}
+header {
+  display: block;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+img#header-img {
+  position: absolute;
+  top: 0px;
+  margin: 10px;
+  max-width: 80px;
+}
+/* nav configuration */
+nav#nav-bar {
+  display: block;
+  float: right;
+  margin-right: 20px;
+}
+nav#nav-bar ul {
+  list-style: none;
+}
+nav#nav-bar li {
+  display: inline-block;
+  padding: 10px;
+  margin: 2px;
+}
+
+/* body */
+section#landing-page {
+  margin-top: 150px;
+  text-align: center;
+}
+
+input#submit {
+  padding: 5px 30px 5px 30px;
+}
+div#get-started {
+  margin-bottom: 60px;
+}
+
+/* features area */
+div#features {
+  width: 800px;
+  display: block;
+  margin: auto;
+}
+div.feat-grid {
+  display: flex;
+  margin: 20px;
+}
+div.feat-grid h2 {
+  margin-bottom: 15px;
+}
+div.feat-grid p {
+  margin-top: -15px;
+  text-align: justify;
+}
+div.icon {
+}
+div.icon img {
+  max-width: 70px;
+}
+div.description {
+  margin-left: 10px;
+  margin-top: -20px;
+  text-align: left;
+}
+/* pricing area */
+div#pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px;
+}
+div#pricing h2 {
+  background-color: #e087a6;
+  width: 100%;
+  height: 50px;
+  margin-top: 0px;
+  padding-top: 15px;
+}
+div#prod-1,
+div#prod-2,
+div#prod-3 {
+  display: block;
+  border: 1px solid black;
+  margin: 20px;
+  padding-bottom: 15px;
+  min-width: 200px;
+}
+div#prod-1 p,
+div#prod-2 p,
+div#prod-3 p {
+  margin-left: -35px;
+}
+ol.ol-nostyle {
+  list-style: none;
+}
+button {
+  display: block;
+  margin: auto;
+  border-style: none;
+  background-color: #bf6e6c;
+  padding: 5px 20px 5px 20px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+ul#ul-footer {
+  margin-left: -40px;
+}
+li.li-nostyle {
+  list-style: none;
+  display: inline-block;
+}
